@@ -1,0 +1,26 @@
+{
+  "name": "@antchain/myfish-scaffold-solidity",
+  "version": "1.0.0-beta.20",
+  "scripts": {
+    "compile": "myfish compile"
+  },
+  "dependencies": {
+    "@antchain/mysolidity": "1.0.0-beta.20"
+  },
+  "devDependencies": {
+    "@antchain/myfish": "1.0.0-beta.20"
+  },
+  "files": [
+    "solidity",
+    "config/myfish.js",
+    "config/certs",
+    "package.json",
+    ".gitignore",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "gitHead": "69f2ad55aeb9f6792d00331d7cf73c6da7292801"
+}
